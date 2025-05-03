@@ -1,0 +1,21 @@
+#ifndefine PILA_H
+#define PILA_H
+
+#include<iostream>
+
+using namespace std;
+
+class Pila{
+	
+	private: //atributos privados
+		Nodo *top;
+		int length;
+	public: // atributos públicos
+		
+	
+	Pila(){
+		this->length = 0;
+	}
+};
+
+#endif
